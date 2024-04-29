@@ -35,6 +35,7 @@ function fetchDestination(dest) {
   return isDict(dest) ? dest.get('D') : dest;
 }
 
+
 class Catalog {
   constructor(pdfManager, xref) {
     this.pdfManager = pdfManager;
